@@ -23,7 +23,19 @@
     box-sizing: border-box;
 }
 
-
+/* Body y Tipografía Global */
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-fondo-principal);
+    color: var(--color-texto);
+    font-size: 16px;
+    line-height: 1.6; /* Interlineado */
+    
+    /* Centrado general del contenido de la página */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
 table, th, td {
     border: 1px solid black;

@@ -1,3 +1,30 @@
+/* Variables CSS-Paleta de colores del sitio */
+:root {
+    /* Colores de fondo */
+    --color-fondo-principal: #f4f8fb; 
+    --color-fondo-seccion: #e5ecf3;
+    --color-fondo-articulo: #cddceb;
+    --color-fondo-contacto: #aad5fd;
+    
+    /* Colores de marca y botones */
+    --color-primario: #5f97ff;     
+    --color-acento: #65ceff;      
+    --color-acento-hover: #1070ff; 
+    /* Colores de texto */
+    --color-texto: #000000;
+    /* Tipografía  */
+    --fuente-principal: 'Montserrat', sans-serif;
+}
+
+/* Bordes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;

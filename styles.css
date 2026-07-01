@@ -130,3 +130,30 @@ font-weight: bold;
 background-color: var(--color-acento-hover);
 border-color: var(--color-acento-hover);
 }
+
+/* =========================================
+JavaScript - Modo Oscuro 
+========================================= */
+body.oscuro {
+background-color: #1a1a1a;
+color: #f5f5f5;
+}
+
+/* Ajustamos los textos para que se lean en fondo negro */
+body.oscuro .h1,
+body.oscuro .h2,
+body.oscuro .h3,
+body.oscuro .p,
+body.oscuro p {
+color: #f5f5f5;
+}
+
+/* Ajustamos las tarjetas de Bootstrap para que no queden blancas */
+body.oscuro .card {
+background-color: #2d2d2d;
+border-color: #444;
+}
+
+body.oscuro .card-text {
+color: #e0e0e0;
+}

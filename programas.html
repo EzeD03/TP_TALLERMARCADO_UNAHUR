@@ -12,14 +12,42 @@
 </head>
 <body>
     <header>
-        <h1>CEFUNI <img src="images/Logodesinnombre.png" alt="Logo de la ONG Sin Nombre" width="40" height="40"> | Para cada niño </h1>
-            <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="programas.html">Programas</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+        <!-- navbar-expand-lg indica que en pantallas grandes el menú se ve normal y en chicas se hace hamburguesa -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--color-fondo-seccion);">
+            <div class="container">
+                
+                <!-- navbar-brand es el contenedor oficial de bootstrap para el logo y nombre -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/Logodesinnombre.png" alt="Logo de CEFUNI" width="40" height="40" class="d-inline-block align-text-top">
+                    <strong>CEFUNI</strong>
+                </a>
+                
+                <!-- botón Hamburguesa que aparece en celulares -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!--links que se ocultan/muestran -->
+                <div class="collapse navbar-collapse" id="menuNavegacion">
+                    <!-- ms-auto empuja los links hacia la derecha -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Agregamos "active" para marcar visualmente en qué página estamos -->
+                            <a class="nav-link active" href="programas.html">Programas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
         </nav>
     </header>
     <main class="container my-5">

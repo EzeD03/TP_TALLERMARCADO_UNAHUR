@@ -113,3 +113,20 @@ table, th, td {
     color: #000000;
     font-size: 16px;
 }
+
+/* =========================================
+Bootstrap -Etapa 3
+========================================= */
+
+/* Modificamos el botón principal de Bootstrap para que use el color de CEFUNI */
+.btn-primary {
+background-color: var(--color-primario);
+border-color: var(--color-primario);
+font-weight: bold;
+}
+
+/* Color cuando pasamos el mouse por encima (hover) */
+.btn-primary:hover {
+background-color: var(--color-acento-hover);
+border-color: var(--color-acento-hover);
+}

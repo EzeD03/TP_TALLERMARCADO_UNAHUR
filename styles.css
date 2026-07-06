@@ -95,7 +95,7 @@ table, th, td {
 }
 
 .h1 {
-    color: #5f97ff;
+    color: #000000;
     text-align: center;
     font-size: 40px;
 }
@@ -156,4 +156,9 @@ border-color: #444;
 
 body.oscuro .card-text {
 color: #e0e0e0;
+}
+
+body.oscuro .section {
+background-color: #2d2d2d;
+border-color: #444;
 }
